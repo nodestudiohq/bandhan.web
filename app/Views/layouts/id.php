@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><?= esc($title ?? 'Print') ?> — HospitalMS</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+    <?= $this->renderSection('head') ?>
+</head>
+
+<body class="bg-light">
+    <div class="container py-4">
+        <?= $this->renderSection('content') ?>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <?= $this->renderSection('scripts') ?>
+</body>
+
+</html>
