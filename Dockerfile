@@ -14,8 +14,7 @@ RUN apt-get update && apt-get install -y \
     libjpeg-dev \
     libfreetype6-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install gd intl pdo pdo_mysql mysqli zip \
-    && docker-php-ext-install intl zip \
+    && docker-php-ext-install gd intl pdo pdo_mysql mysqli zip calendar \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
