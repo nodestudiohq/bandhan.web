@@ -98,7 +98,7 @@ class Staff extends BaseController
         $photo = $this->request->getFile('photo');
         if ($photo && $photo->isValid() && !$photo->hasMoved()) {
             $newName = $photo->getRandomName();
-            $photo->move(WRITEPATH . 'uploads/staff', $newName);
+            $photo->move(WRITEPATH . 'uploads', $newName);
             $data['photo'] = $newName;
         }
 
@@ -233,7 +233,7 @@ class Staff extends BaseController
         $photo = $this->request->getFile('photo');
         if ($photo && $photo->isValid() && !$photo->hasMoved()) {
             $newName = $photo->getRandomName();
-            $photo->move(WRITEPATH . 'uploads/staff', $newName);
+            $photo->move(WRITEPATH . 'uploads', $newName);
             $data['photo'] = $newName;
         }
 

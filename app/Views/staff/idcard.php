@@ -96,7 +96,7 @@
       <div
         style="width:204px;height:204px;border:6px solid #1565c0;border-radius:20px;overflow:hidden;background:#c5d5e8;box-shadow:0 10px 42px rgba(13,42,110,.32);">
         <?php if (!empty($staff['photo'])): ?>
-          <img src="<?= base_url('uploads/staff/' . esc($staff['photo'])) ?>"
+          <img src="<?= base_url('uploads/' . esc($staff['photo'])) ?>"
             style="width:100%;height:100%;object-fit:cover;display:block;">
         <?php else: ?>
           <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#b8cce0;">
@@ -311,7 +311,7 @@
       <div
         style="width:136px;height:136px;border:4px solid #1565c0;border-radius:13px;overflow:hidden;background:#c5d5e8;box-shadow:0 7px 28px rgba(13,42,110,.32);">
         <?php if (!empty($staff['photo'])): ?>
-          <img src="<?= base_url('uploads/staff/' . esc($staff['photo'])) ?>"
+          <img src="<?= base_url('uploads/' . esc($staff['photo'])) ?>"
             style="width:100%;height:100%;object-fit:cover;display:block;">
         <?php else: ?>
           <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#b8cce0;">

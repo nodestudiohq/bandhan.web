@@ -29,7 +29,7 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->post('staff/store', 'Staff::store');
     $routes->get('staff/(:num)', 'Staff::show/$1');
     $routes->get('staff/edit/(:num)', 'Staff::edit/$1');
-    $routes->post('staff/update/(:num)', 'Staff::update/$1');
+    $routes->put('staff/update/(:num)', 'Staff::update/$1');
     $routes->post('staff/delete/(:num)', 'Staff::delete/$1');
     $routes->get('staff/idcard/(:num)', 'Staff::idcard/$1');
     $routes->get('staff/salary-structure/(:num)', 'Staff::salaryStructure/$1');
@@ -66,7 +66,7 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->post('invoice/store', 'Invoice::store');
     $routes->get('invoice/(:num)', 'Invoice::show/$1');
     $routes->get('invoice/edit/(:num)', 'Invoice::edit/$1');
-    $routes->post('invoice/update/(:num)', 'Invoice::update/$1');
+    $routes->put('invoice/update/(:num)', 'Invoice::update/$1');
     $routes->post('invoice/delete/(:num)', 'Invoice::delete/$1');
     $routes->get('invoice/print/(:num)', 'Invoice::print/$1');
 

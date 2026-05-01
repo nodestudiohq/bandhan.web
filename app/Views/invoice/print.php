@@ -672,7 +672,7 @@
             30/1 P.L.K. Maitra Road, Krishnagar, Nadia – 741101, West Bengal<br>
             ✉ bandhanhospital@gmail.com &nbsp;·&nbsp; 🌐 www.bandhanhospital.com
           </div>
-          <div class="hsp-phone">📞 8172007073 / 7318770083</div>
+          <div class="hsp-phone">8172007073 / 7318770083</div>
           <div style="font-size:9.5px;color:#8eb8e8;margin-top:5px;line-height:1.8;letter-spacing:.2px;">
             PAN: <strong style="color:#b8cef0;">AASFB0009Q</strong>
             &nbsp;·&nbsp;
@@ -725,7 +725,7 @@
             </div>
           <?php endif; ?>
           <?php if (!empty($invoice['patient_phone'])): ?>
-            <div class="party-detail">📞 <?= esc($invoice['patient_phone']) ?></div>
+            <div class="party-detail"><?= esc($invoice['patient_phone']) ?></div>
           <?php endif; ?>
           <?php if (!empty($invoice['patient_address'])): ?>
             <div class="party-detail"><?= nl2br(esc($invoice['patient_address'])) ?></div>
