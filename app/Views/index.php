@@ -35,7 +35,7 @@
       "addressRegion": "West Bengal",
       "addressCountry": "IN"
     },
-    "telephone": "+91-XXXXXXXXXX",
+    "telephone": "+91-8172007073",
     "url": "https://bandhanhospital.in",
     "openingHours": "Mo-Su 00:00-24:00",
     "medicalSpecialty": ["Cardiology","Neurology","Orthopedics","Pediatrics","Oncology","Emergency Medicine"]
@@ -2421,7 +2421,7 @@
             <span>📍 Krishnagar, Nadia, West Bengal, India</span>
             <div class="topbar-right">
                 <span>🕐 Emergency: 24/7 Open</span>
-                <span>📞 <a href="tel:+91XXXXXXXXXX">+91-XXXXXXXXXX</a></span>
+                <span>📞 <a href="tel:+918172007073">+91-8172007073</a></span>
             </div>
         </div>
     </div>
@@ -2907,14 +2907,14 @@
                             slots, and same-day emergency consultations available.</p>
 
                         <div class="contact-pills">
-                            <a href="tel:+91XXXXXXXXXX" class="contact-pill">
+                            <a href="tel:+918172007073" class="contact-pill">
                                 <div class="contact-pill-icon">📞</div>
                                 <div>
                                     <div style="font-size:0.75rem;opacity:0.7;">Call Us</div>
-                                    <div>+91-XXXXXXXXXX</div>
+                                    <div>+91-8172007073</div>
                                 </div>
                             </a>
-                            <a href="https://wa.me/91XXXXXXXXXX" class="contact-pill">
+                            <a href="https://wa.me/918172007073" class="contact-pill">
                                 <div class="contact-pill-icon">💬</div>
                                 <div>
                                     <div style="font-size:0.75rem;opacity:0.7;">WhatsApp</div>
@@ -3680,7 +3680,7 @@
                             <div class="info-icon">📞</div>
                             <div>
                                 <h4>Phone / Emergency</h4>
-                                <a href="tel:+91XXXXXXXXXX">+91-XXXXXXXXXX</a>
+                                <a href="tel:+918172007073">+91-8172007073</a>
                             </div>
                         </div>
                         <div class="info-item reveal">
@@ -3799,10 +3799,10 @@
 
     <!-- ── EMERGENCY FLOAT ── -->
     <div class="emergency-float">
-        <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="whatsapp-btn">
+        <a href="https://wa.me/918172007073" target="_blank" class="whatsapp-btn">
             💬 WhatsApp Us
         </a>
-        <a href="tel:+91XXXXXXXXXX" class="emer-btn">
+        <a href="tel:+918172007073" class="emer-btn">
             🚨 Emergency Call
         </a>
     </div>
