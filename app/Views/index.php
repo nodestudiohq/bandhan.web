@@ -2451,8 +2451,7 @@
             </ul>
 
             <div class="nav-actions">
-                <a href="#appointment" class="nav-cta">Book Appointment</a>
-                <a href="tel:+91XXXXXXXXXX" class="nav-emergency">🚨 Emergency</a>
+                <a href="/dashboard" class="nav-cta">Hospital Login</a>
             </div>
 
             <div class="hamburger" onclick="toggleMenu()">
