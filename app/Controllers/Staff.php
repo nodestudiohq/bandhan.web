@@ -65,7 +65,6 @@ class Staff extends BaseController
             'phone' => 'required',
             'designation' => 'required',
             'department' => 'required',
-            'basic_salary' => 'required|decimal',
         ];
 
         if (!$this->validate($rules)) {
